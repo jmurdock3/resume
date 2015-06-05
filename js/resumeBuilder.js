@@ -1,17 +1,16 @@
 var bio = {
-    name: "Justin Murdock",
+    name: "Jesse Murdock",
     role: "&nbsp;<span class=\"orange-text\">Full Stack Web Developer</span>",
     contacts: {
-        twitter: "https://twitter.com/JuicetinMurdock",
         location: "Berkeley, CA, USA",
         mobile: "1-(270)-227",
-        email: "justin.murdock96",
-        github: "https://github.com/juliusakula",
+        email: "murdock.jesse",
+        github: "https://github.com/jmurdock3",
         linkedin: "https://www.linkedin.com/profile/view?id=322687836"
     },
     welcomeMessage: "Welcome to my Responsive Resume!",
     skills: ["Angular.js", "Grunt", "PHP" , "HTML & CSS", "SQL"],
-    biopic: 'images/profile_pic.jpg',
+    biopic: 'images/wood_floor.jpg',
     biopicTwo: 'images/profile_pic_small.png',
     display: function(){
         var formattedName = HTMLheaderName.replace("%data%", this.name),
